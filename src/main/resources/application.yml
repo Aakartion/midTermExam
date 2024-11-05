@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: midTermExam
+  datasource:
+    url: jdbc:mysql://localhost:3306/garden-app
+    username: root
+    password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+#    show_sql: true
+
+server:
+  port: 8080

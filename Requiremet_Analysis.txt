@@ -1,0 +1,5 @@
+Requirement for the Gardening App
+- A console application for managing vegetable garden data.
+- This application should store information about garden and plants within them.
+- Application allow for the basic data operations (CRUD) and display the results.
+- Result are displayed in sorted order.
