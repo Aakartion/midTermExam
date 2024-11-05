@@ -61,6 +61,7 @@ public class MidTermExamApplication implements CommandLineRunner {
         plantService.addPlant(basil);
 
 
+        System.out.println();
 
         System.out.println("********** All Garden ***************");
         gardenService.getAllGarden();
@@ -100,7 +101,8 @@ public class MidTermExamApplication implements CommandLineRunner {
 
 
         System.out.println("********** Update ************");
-        plantService.updatePlant(tomato, "Fruit" );
+        tomato.setPlantType("Fruit");
+        plantService.updatePlant(tomato, "Tomato" );
         plantService.findAllPlantSortByName();
         System.out.println();
     }
